@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
-function About() {
+function Orders() {
   return (
     <div>
-      <h1>About</h1>
+      <h1>orders</h1>
          <Link to = "/"> Home</Link>
              <Link to = "/about"> About</Link>
              <Link to = "/contact"> Contact</Link>
@@ -14,4 +13,4 @@ function About() {
   )
 }
 
-export default About
+export default Orders
