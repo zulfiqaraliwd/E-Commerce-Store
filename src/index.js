@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './Components/Navbar/Navbar';
-import About from './Pages/About';
-import AppRoutes from './AppRoutes';
+import { BrowserRouter } from "react-router-dom";
+import ProductCards from './Components/ProductCards/ProductCards';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Navbar/>
-     <AppRoutes />
-     
+    <BrowserRouter>
+      <App />
+      <products />
+   </BrowserRouter> 
   </React.StrictMode>
 );
 

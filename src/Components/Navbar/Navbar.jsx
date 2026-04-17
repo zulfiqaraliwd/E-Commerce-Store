@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from "../../assets/images/dryF-logo.png";
 import "./Navbar.css"
+import { Link } from 'react-router-dom';
+import Home from '../../Pages/Home';
 function Navbar() {
   return (
     <div>
@@ -8,12 +10,13 @@ function Navbar() {
         <div>
             <img src={logo} width={90} alt="logo" />
         </div>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Orders</li>
-      </ul>
+     <ul>
+  <li><Link to="/">Home</Link></li>
+  <li><Link to="/about">About</Link></li>
+  <li><Link to="/contact">Contact</Link></li>
+  <li><Link to="/orders">Orders</Link></li>
+</ul>
+
     </div>
     </div>
   )
