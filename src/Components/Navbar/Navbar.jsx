@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../assets/images/dryF-logo.png";
+import products from '../../Data/products';
 import "./Navbar.css"
 import { Link } from 'react-router-dom';
 import Home from '../../Pages/Home';
@@ -8,7 +8,7 @@ function Navbar() {
     <div>
     <div className='navbar'>
         <div>
-            <img src={logo} width={90} alt="logo" />
+            <img className ="main-logo" src="/assets/images/dryF-logo.png" width={90} alt="logo" />
         </div>
      <ul>
   <li><Link to="/">Home</Link></li>

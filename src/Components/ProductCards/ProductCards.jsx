@@ -2,16 +2,31 @@ import React from 'react'
 import products from '../../Data/products'
 
 function ProductCards({product}) {
+const carts = {
+  border: "1px solid black",
+  padding: "20px",
+  margin: "10px",
+  width: "250px",
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "space-between" // 👈 equal spacing
+}
+
+  
   return (
-    <div style={{border:"2px solid black",margin: 20}}>
+    <>
+    <div style={carts}>
       <h1>Title : {product.name}</h1>
-      <h2>Price : ${product.price}/-</h2>
+      <h2>Price : PKR :{product.price}/-</h2>
       <h2>Weight : {product.weight}</h2>
-      <img src="" alt="" />
-      <p>Description :{product.desc}</p>
+      <img src={product.image} alt=""  style={{    width: "100%",height: "300px",  objectFit: "cover", borderRadius: "8px"}}/>
+      <p><h2>Description :</h2>{product.desc}</p>
 
     </div>
+
+    </>
   )
 }
 
-export default ProductCards
+
+export default ProductCards;
