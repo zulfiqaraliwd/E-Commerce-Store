@@ -40,7 +40,7 @@ id:5,
 name:"Almond",
 price:3000,
 weight:"1000g",
-image:"/assets/images/badam.webp",
+image:"/assets/images/badamGemine.png",
 desc:"Almonds support heart health and boost energy."
 },
 

@@ -2,6 +2,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import AppRoutes from "./AppRoutes";
 import ProductCards from "./Components/ProductCards/ProductCards";
 import products from "./Data/products";
+import Whatsapp from "./Components/Whatsapp";
+import Footer from "./Components/Footer/Footer";
 
 
 function App() {
@@ -9,6 +11,10 @@ function App() {
     <>
       <Navbar />
       <AppRoutes />
+
+<div><img src="/assets/images/mainimage.png" alt="" height={600} width="100%" /></div>
+
+
 <div style={{
   display: "flex",
   flexWrap: "wrap",
@@ -20,8 +26,9 @@ function App() {
   ))}
 </div>
 
-   
+   <Whatsapp  />
   
+  <Footer />
     </>
   );
 }

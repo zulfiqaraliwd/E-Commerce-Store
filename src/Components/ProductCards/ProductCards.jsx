@@ -1,11 +1,13 @@
 import React from 'react'
 import products from '../../Data/products'
+import Button from '../Buttons/Button'
 
 function ProductCards({product}) {
 const carts = {
   border: "1px solid black",
   padding: "20px",
   margin: "10px",
+  marginTop : "70px",
   width: "250px",
   display: "flex",
   flexDirection: "column",
@@ -21,6 +23,7 @@ const carts = {
       <h2>Weight : {product.weight}</h2>
       <img src={product.image} alt=""  style={{    width: "100%",height: "300px",  objectFit: "cover", borderRadius: "8px"}}/>
       <p><h2>Description :</h2>{product.desc}</p>
+       <Button />
 
     </div>
 
