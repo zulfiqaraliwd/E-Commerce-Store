@@ -7,7 +7,7 @@
   padding: 10px;
 }
 
-ul{
+.sections{
     display: flex;
   justify-content: space-between;
   color: white;
@@ -15,6 +15,7 @@ ul{
   gap: 100px;  
    list-style: none;
    font-size: larger;
+   align-items: center;
 }
 .main-logo{
     border-radius: 50px;

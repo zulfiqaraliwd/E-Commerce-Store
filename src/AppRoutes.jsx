@@ -14,6 +14,7 @@ function AppRoutes() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/orders" element={<Orders />} />
     </Routes>
+  
     
   );
 }

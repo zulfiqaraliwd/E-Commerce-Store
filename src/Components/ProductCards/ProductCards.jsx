@@ -5,13 +5,13 @@ import Button from '../Buttons/Button'
 function ProductCards({product}) {
 const carts = {
   border: "1px solid black",
-  padding: "20px",
+  padding: "10px",
   margin: "10px",
   marginTop : "70px",
   width: "250px",
   display: "flex",
   flexDirection: "column",
-  justifyContent: "space-between" // 👈 equal spacing
+  justifyContent: "space-between" 
 }
 
   
