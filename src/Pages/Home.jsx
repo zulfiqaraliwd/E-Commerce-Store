@@ -7,7 +7,7 @@ import products from "../Data/products";
 function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <h1 style={{textAlign:"center"}}>Home</h1>
 
       <div>
         <img src="/assets/images/mainimage.png" alt="" height={600} width="100%" />

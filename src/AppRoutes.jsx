@@ -6,6 +6,7 @@ import Orders from "./Pages/NewProducts";
 import NotFoundPage from "./Pages/NotFoundPage";
 import ProductCards from "./Components/ProductCards/ProductCards";
 import NewProducts from "./Pages/NewProducts";
+import ProductDetails from "./Pages/ProductDetails";
 
 
 function AppRoutes() {
@@ -17,6 +18,7 @@ function AppRoutes() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/newproducts" element={<NewProducts />} />
+      <Route path="/newproducts/:id" element={<ProductDetails />} />
     </Routes>
   
     
