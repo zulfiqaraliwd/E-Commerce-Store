@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Orders() {
+function NewProducts() {
   return (
     <div>
       <h1>Orders</h1>
@@ -10,4 +10,4 @@ function Orders() {
   )
 }
 
-export default Orders
+export default NewProducts

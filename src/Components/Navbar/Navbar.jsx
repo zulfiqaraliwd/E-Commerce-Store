@@ -26,7 +26,7 @@ fontWeight: isActive ? "bold" : "normal"
 <NavLink style={navstyle} to="/">Home</NavLink>
 <NavLink style={navstyle} to="/about">About</NavLink>
 <NavLink style={navstyle} to="/contact">Contact</NavLink>
-<NavLink style={navstyle} to="/orders">Orders</NavLink>
+<NavLink style={navstyle} to="/newproducts">NewProducts</NavLink>
 
 
 
