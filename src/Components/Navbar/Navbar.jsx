@@ -22,13 +22,11 @@ fontWeight: isActive ? "bold" : "normal"
         <div>
             <img className ="main-logo" src="/assets/images/dryF-logo.png" width={90} alt="logo" />
         </div>
-<nav className='sections' >
+<nav className='pages' >
 <NavLink style={navstyle} to="/">Home</NavLink>
 <NavLink style={navstyle} to="/about">About</NavLink>
 <NavLink style={navstyle} to="/contact">Contact</NavLink>
 <NavLink style={navstyle} to="/newproducts">NewProducts</NavLink>
-
-
 
 </nav>
     </div>
