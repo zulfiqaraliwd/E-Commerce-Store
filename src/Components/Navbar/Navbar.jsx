@@ -11,9 +11,7 @@ color: isActive ? "yellow" : "blue",
 textDecoration: isActive  ? "none": "none",
 fontWeight: isActive ? "bold" : "normal"
 
-
 }
-
 }
 
   return (
